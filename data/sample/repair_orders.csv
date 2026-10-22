@@ -1,0 +1,122 @@
+ro_number,branch,open_date,status,payer_type,unit,complaint,technician,labor_hours,labor_amount,parts_amount
+RO240001,Fort Wayne,2026-08-07,Void,Warranty,Freightliner S2C School Bus,Brake noise,K. Evans,7.6,1254.0,2522.89
+RO240002,Fort Wayne,2026-10-21,Waiting on Parts,Customer,Ford E-450 Shuttle Bus,Coolant leak,,10.9,1798.5,1301.66
+RO240003,Columbus,2026-05-14,Open,Customer,Ford Transit 350,Wheelchair lift inoperative,T. Alvarez,11.4,1881.0,62.56
+RO240004,Fort Wayne,2026-06-09,Closed ,Customer,Ford E-450 Shuttle Bus,Electrical short at rear heater,J. Brooks,1.5,247.5,631.61
+RO240005,Columbus,2026-05-23,In Progress,Customer,Freightliner S2C School Bus,Coolant leak,M. Chen,5.4,891.0,1444.23
+RO240006,Indianapolis,2026-08-20,Open,Customer,Ram ProMaster,A/C not cooling,R. Davis,1.4,231.0,1918.01
+RO240007,Fort Wayne,2026-10-18,Waiting on Parts,Internal,Chevy 4500 Cutaway,Door actuator fault,M. Chen,10.8,1782.0,2975.05
+RO240008,Columbus,2026-10-10,Invoiced,Customer,Ford E-450 Shuttle Bus,Check engine light,R. Davis,12.9,2128.5,521.88
+RO240009,Fort Wayne,2026-05-19,closed,Customer,Freightliner S2C School Bus,Wheelchair lift inoperative,R. Davis,11.4,1881.0,2476.53
+RO240010,Columbus,2026-10-14,Sublet Out,Customer,Ram ProMaster,Check engine light,J. Brooks,5.8,957.0,2785.23
+RO240011,Fort Wayne,2026-10-19,Sublet Out,Internal,Freightliner S2C School Bus,Electrical short at rear heater,T. Alvarez,13.4,2211.0,2878.2
+RO240012,Nashville,2026-06-05,Void,Warranty,Ford Transit 350,PM service,J. Brooks,10.9,1798.5,32.75
+RO240013,Nashville,2026-09-19,In Progress,Warranty,Ram ProMaster,Brake noise,J. Brooks,2.4,396.0,1270.27
+RO240014,Indianapolis,2026-10-13,Open,Internal,Chevy 4500 Cutaway,Brake noise,M. Chen,7.8,1287.0,1037.69
+RO240015,Nashville,2026-10-06,Waiting on Parts,Customer,Freightliner S2C School Bus,A/C not cooling,K. Evans,10.1,1666.5,2796.38
+RO240016,Fort Wayne,2026-10-21,INVOICED,Internal,Ford Transit 350,PM service,,8.7,1435.5,2386.59
+RO240017,Indianapolis,2026-09-11,Void,Internal,Freightliner S2C School Bus,A/C not cooling,K. Evans,8.5,1402.5,1036.55
+RO240018,Columbus,2026-10-04,Open,Customer,Chevy 4500 Cutaway,Wheelchair lift inoperative,M. Chen,9.4,1551.0,1344.87
+RO240019,Nashville,2026-10-20,Void,Internal,Freightliner S2C School Bus,Coolant leak,R. Davis,1.4,231.0,79.84
+RO240020,Nashville,2026-06-17,Invoiced,Customer,Ram ProMaster,Coolant leak,M. Chen,7.1,1171.5,2021.84
+RO240021,Fort Wayne,2026-06-30,Closed,Warranty,Freightliner S2C School Bus,PM service,J. Brooks,7.0,1155.0,1595.77
+RO240022,Columbus,2026-10-17,Waiting on Parts,Customer,Chevy 4500 Cutaway,Coolant leak,,2.5,412.5,1770.38
+RO240023,Fort Wayne,,Open,Internal,Ram ProMaster,Check engine light,,5.0,825.0,2053.05
+RO240024,Fort Wayne,2026-09-15,Sublet Out,Internal,Freightliner S2C School Bus,Check engine light,J. Brooks,8.6,1419.0,887.72
+RO240025,Nashville,2026-05-24,Invoiced,Internal,Chevy 4500 Cutaway,Brake noise,,5.7,940.5,871.69
+RO240026,Indianapolis,2026-09-18,Open,Internal,Freightliner S2C School Bus,A/C not cooling,R. Davis,8.7,1435.5,2241.3
+RO240027,Fort Wayne,2026-10-18,Sublet Out,Warranty,Chevy 4500 Cutaway,A/C not cooling,M. Chen,2.7,445.5,1826.51
+RO240028,Nashville,2026-07-29,In Progress,Warranty,Freightliner S2C School Bus,Check engine light,J. Brooks,8.3,1369.5,2636.11
+RO240029,Fort Wayne,2026-10-14,Invoiced,Customer,Ford E-450 Shuttle Bus,Electrical short at rear heater,K. Evans,8.7,1435.5,1984.9
+RO240030,Fort Wayne,2026-09-22,Sublet Out,Warranty,Chevy 4500 Cutaway,PM service,,9.0,1485.0,2848.47
+RO240031,Columbus,2026-10-20,In Progress,Warranty,Chevy 4500 Cutaway,A/C not cooling,J. Brooks,1.0,165.0,1584.19
+RO240032,Columbus,2026-10-08,Closed,Warranty,Ford Transit 350,Check engine light,,13.4,2211.0,1355.12
+RO240033,Fort Wayne,2026-10-16,Closed,Customer,Chevy 4500 Cutaway,Electrical short at rear heater,R. Davis,2.7,445.5,2723.06
+RO240034,Columbus,2026-10-05,Open,Warranty,Ford Transit 350,Electrical short at rear heater,,11.2,1848.0,35.99
+RO240035,Fort Wayne,2026-10-16,Invoiced,Customer,Freightliner S2C School Bus,Coolant leak,J. Brooks,3.6,594.0,1646.92
+RO240036,Nashville,2026-10-17,In Progress,Internal,Ford Transit 350,Door actuator fault,K. Evans,9.6,1584.0,2773.04
+RO240037,Indianapolis,2026-10-19,In Progress,Customer,Freightliner S2C School Bus,Door actuator fault,K. Evans,4.5,742.5,515.47
+RO240038,Fort Wayne,2026-05-24,In Progress,Warranty,Ford Transit 350,Coolant leak,R. Davis,3.5,577.5,1527.04
+RO240039,Columbus,2026-09-26,Open,Internal,Ram ProMaster,PM service,,2.4,396.0,700.63
+RO240040,Columbus,2026-10-19,Open,Internal,Ram ProMaster,Check engine light,R. Davis,3.6,594.0,2349.26
+RO240041,Nashville,2026-09-17,Waiting on Parts,Warranty,Ram ProMaster,Door actuator fault,R. Davis,8.1,1336.5,1433.41
+RO240042,Nashville,2026-08-03,Sublet Out,Customer,Ford Transit 350,Door actuator fault,T. Alvarez,10.6,1749.0,795.88
+RO240043,Fort Wayne,2026-10-19,Sublet Out,Internal,Ford Transit 350,Brake noise,R. Davis,10.9,1798.5,1584.71
+RO240044,Fort Wayne,2026-07-25,Open,Customer,Chevy 4500 Cutaway,A/C not cooling,M. Chen,9.9,1633.5,1323.74
+RO240045,Nashville,2026-10-20,In Progress,Warranty,Freightliner S2C School Bus,Door actuator fault,R. Davis,9.1,1501.5,2034.32
+RO240046,Fort Wayne,2026-06-01,Void,Warranty,Ford Transit 350,A/C not cooling,,12.6,2079.0,2699.4
+RO240047,Columbus,2026-10-02,Open,Warranty,Chevy 4500 Cutaway,PM service,J. Brooks,13.5,2227.5,1461.69
+RO240048,Indianapolis,2026-10-09,In Progress,Customer,Freightliner S2C School Bus,Wheelchair lift inoperative,,6.0,990.0,2434.78
+RO240049,Fort Wayne,2026-10-18,Open,Customer,Freightliner S2C School Bus,Wheelchair lift inoperative,J. Brooks,3.2,528.0,1845.54
+RO240050,Indianapolis,2026-09-01,Invoiced,Internal,Ram ProMaster,A/C not cooling,R. Davis,10.9,1798.5,1854.93
+RO240051,Columbus,2026-07-23,Void,Internal,Ford Transit 350,PM service,M. Chen,5.5,907.5,1571.14
+RO240052,Columbus,2026-10-17,Open,Internal,Ford E-450 Shuttle Bus,Electrical short at rear heater,M. Chen,11.6,1914.0,441.58
+RO240053,Nashville,2026-10-19,Sublet Out,Customer,Ford E-450 Shuttle Bus,Door actuator fault,,12.2,2013.0,1360.44
+RO240054,Indianapolis,2026-08-21,In Progress,Warranty,Chevy 4500 Cutaway,Door actuator fault,R. Davis,3.0,495.0,2922.74
+RO240055,Fort Wayne,2026-10-15,In Progress,Customer,Chevy 4500 Cutaway,A/C not cooling,,10.9,1798.5,2720.69
+RO240056,Columbus,2026-06-07,In Progress,Internal,Freightliner S2C School Bus,Brake noise,,5.5,907.5,458.62
+RO240057,Fort Wayne,2026-10-16,Open,Internal,Chevy 4500 Cutaway,Door actuator fault,K. Evans,5.6,924.0,3124.46
+RO240058,Fort Wayne,2026-09-19,In Progress,Customer,Ford E-450 Shuttle Bus,Check engine light,R. Davis,13.7,2260.5,1597.8
+RO240059,Fort Wayne,2026-05-28,Sublet Out,Internal,Ram ProMaster,A/C not cooling,J. Brooks,10.1,1666.5,2413.97
+RO240060,Columbus,2026-10-19,Open,Customer,Ford Transit 350,PM service,,6.5,1072.5,2278.17
+RO240061,Indianapolis,2026-08-05,Closed,Internal,Ram ProMaster,PM service,R. Davis,8.9,1468.5,1000.39
+RO240062,Fort Wayne,2026-09-12,Closed,Internal,Ford Transit 350,Wheelchair lift inoperative,M. Chen,11.2,1848.0,517.21
+RO240063,Indianapolis,2026-10-12,Open,Customer,Ford Transit 350,Door actuator fault,K. Evans,9.7,1600.5,742.06
+RO240064,Fort Wayne,2026-10-03,Open,Internal,Chevy 4500 Cutaway,Coolant leak,M. Chen,4.9,808.5,2326.71
+RO240065,Columbus,2026-10-04,Sublet Out,Customer,Chevy 4500 Cutaway,Coolant leak,J. Brooks,13.9,2293.5,268.02
+RO240066,Indianapolis,2026-09-29,Void,Warranty,Ram ProMaster,Wheelchair lift inoperative,,8.0,1320.0,2894.38
+RO240067,Columbus,2026-10-19,Open,Internal,Ford Transit 350,A/C not cooling,,12.5,2062.5,2788.83
+RO240068,Nashville,2026-08-15,Invoiced,Warranty,Chevy 4500 Cutaway,Brake noise,K. Evans,4.5,742.5,2443.73
+RO240069,Columbus,2026-10-04,Invoiced,Internal,Chevy 4500 Cutaway,Door actuator fault,R. Davis,7.8,1287.0,371.38
+RO240070,Columbus,2026-10-11,Void,Warranty,Chevy 4500 Cutaway,Check engine light,,7.9,1303.5,894.54
+RO240071,Nashville,2026-08-15,Void,Customer,Chevy 4500 Cutaway,Check engine light,,2.9,478.5,1730.55
+RO240072,Nashville,2026-08-05,Void,Internal,Freightliner S2C School Bus,PM service,J. Brooks,7.3,1204.5,278.41
+RO240073,Indianapolis,2026-10-04,Waiting on Parts,Internal,Freightliner S2C School Bus,Check engine light,,6.3,1039.5,1343.03
+RO240074,Indianapolis,2026-06-29,In Progress,Internal,Chevy 4500 Cutaway,Coolant leak,R. Davis,3.2,528.0,2146.28
+RO240075,Fort Wayne,2026-06-02,Sublet Out,Customer,Chevy 4500 Cutaway,PM service,M. Chen,13.5,2227.5,1694.76
+RO240076,Indianapolis,2026-10-05,Waiting on Parts,Warranty,Ford Transit 350,Brake noise,K. Evans,2.8,462.0,1904.16
+RO240077,Nashville,2026-10-12,Waiting on Parts,Warranty,Chevy 4500 Cutaway,Electrical short at rear heater,T. Alvarez,13.7,2260.5,467.29
+RO240078,Nashville,2026-09-23,Invoiced,Warranty,Ford E-450 Shuttle Bus,Check engine light,,7.4,1221.0,574.75
+RO240079,Nashville,2026-07-08,Closed,Internal,Ram ProMaster,PM service,T. Alvarez,11.5,1897.5,2929.02
+RO240080,Nashville,2026-09-27,Closed,Customer,Chevy 4500 Cutaway,Wheelchair lift inoperative,R. Davis,5.9,973.5,2099.66
+RO240081,Indianapolis,2026-07-15,In Progress,Internal,Freightliner S2C School Bus,PM service,J. Brooks,6.9,1138.5,869.57
+RO240082,Fort Wayne,2026-05-28,Closed,Warranty,Chevy 4500 Cutaway,PM service,M. Chen,9.7,1600.5,83.66
+RO240083,Columbus,2026-07-07,Void,Warranty,Chevy 4500 Cutaway,Coolant leak,J. Brooks,7.6,1254.0,242.04
+RO240084,Nashville,2026-10-08,Closed,Internal,Freightliner S2C School Bus,Coolant leak,R. Davis,1.9,313.5,1651.84
+RO240085,Nashville,2026-06-01,In Progress,Customer,Ford Transit 350,PM service,J. Brooks,0.8,132.0,2075.07
+RO240086,Nashville,2026-10-12,Open,Warranty,Ford E-450 Shuttle Bus,PM service,T. Alvarez,9.8,1617.0,2667.69
+RO240087,Indianapolis,2026-06-03,Closed,Warranty,Ram ProMaster,PM service,T. Alvarez,0.8,132.0,2862.58
+RO240088,Indianapolis,2026-08-16,Void,Internal,Chevy 4500 Cutaway,A/C not cooling,M. Chen,10.5,1732.5,981.29
+RO240089,Fort Wayne,2026-10-21,Sublet Out,Warranty,Freightliner S2C School Bus,Check engine light,T. Alvarez,13.7,2260.5,829.22
+RO240090,Columbus,2026-06-04,Void,Customer,Ram ProMaster,Door actuator fault,J. Brooks,7.7,1270.5,1078.02
+RO240091,Indianapolis,2026-05-22,Waiting on Parts,Internal,Ford E-450 Shuttle Bus,Electrical short at rear heater,M. Chen,13.2,2178.0,229.62
+RO240092,Nashville,2026-10-05,In Progress,Internal,Ford Transit 350,Check engine light,M. Chen,12.0,1980.0,1004.24
+RO240093,Columbus,2026-08-10,Invoiced,Warranty,Chevy 4500 Cutaway,Coolant leak,M. Chen,3.3,544.5,2622.14
+RO240094,Columbus,2026-07-27,In Progress,Internal,Freightliner S2C School Bus,Coolant leak,J. Brooks,9.2,1518.0,1006.7
+RO240095,Fort Wayne,2026-10-19,Void,Warranty,Ram ProMaster,Electrical short at rear heater,K. Evans,2.6,429.0,3088.17
+RO240096,Columbus,2026-09-30,Open,Warranty,Ford E-450 Shuttle Bus,Coolant leak,M. Chen,4.1,676.5,2996.36
+RO240097,Fort Wayne,2026-09-04,Void,Customer,Chevy 4500 Cutaway,Door actuator fault,R. Davis,10.3,1699.5,1102.06
+RO240098,Fort Wayne,2026-07-27,Void,Internal,Freightliner S2C School Bus,Brake noise,K. Evans,11.5,1897.5,2309.29
+RO240099,Columbus,2026-09-24,Open,Customer,Ram ProMaster,PM service,K. Evans,12.7,2095.5,2778.95
+RO240100,Fort Wayne,2026-06-27,Sublet Out,Internal,Ford E-450 Shuttle Bus,Door actuator fault,M. Chen,4.5,742.5,1717.47
+RO240101,Nashville,2026-09-24,Open,Warranty,Ram ProMaster,Wheelchair lift inoperative,J. Brooks,9.8,1617.0,2316.09
+RO240102,Fort Wayne,2026-10-21,Invoiced,Internal,Ford Transit 350,Wheelchair lift inoperative,R. Davis,0.7,115.5,251.89
+RO240103,Nashville,2026-09-30,Void,Internal,Ford Transit 350,Brake noise,,12.0,1980.0,3175.04
+RO240104,Columbus,2026-08-02,Open,Customer,Ram ProMaster,Door actuator fault,,5.9,973.5,2293.78
+RO240105,Indianapolis,2026-05-26,Sublet Out,Warranty,Ford Transit 350,A/C not cooling,J. Brooks,4.6,759.0,1545.4
+RO240106,Indianapolis,2026-09-02,Invoiced,Internal,Ford E-450 Shuttle Bus,PM service,J. Brooks,7.0,1155.0,2436.74
+RO240107,Indianapolis,2026-09-20,Invoiced,Internal,Ford Transit 350,PM service,M. Chen,2.2,363.0,1255.93
+RO240108,Fort Wayne,2026-10-02,Waiting on Parts,Warranty,Freightliner S2C School Bus,Electrical short at rear heater,K. Evans,2.1,346.5,1429.03
+RO240109,Indianapolis,2026-10-19,Invoiced,Warranty,Chevy 4500 Cutaway,PM service,T. Alvarez,3.4,561.0,737.44
+RO240110,Columbus,2026-09-09,Open,Customer,Ram ProMaster,Brake noise,R. Davis,8.7,1435.5,74.4
+RO240111,Nashville,2026-06-28,Invoiced,Internal,Ford Transit 350,Check engine light,T. Alvarez,13.4,2211.0,1423.36
+RO240112,Fort Wayne,2026-10-16,Sublet Out,Customer,Ford E-450 Shuttle Bus,Wheelchair lift inoperative,J. Brooks,0.5,82.5,3184.27
+RO240113,Indianapolis,2026-10-16,Closed,Customer,Chevy 4500 Cutaway,Electrical short at rear heater,T. Alvarez,5.3,874.5,1982.22
+RO240114,Fort Wayne,2026-10-09,Void,Warranty,Ford Transit 350,PM service,J. Brooks,12.8,2112.0,447.2
+RO240115,Nashville,2026-09-11,Waiting on Parts,Internal,Ram ProMaster,A/C not cooling,K. Evans,2.2,363.0,784.05
+RO240116,Nashville,2026-09-29,Closed,Customer,Freightliner S2C School Bus,Electrical short at rear heater,J. Brooks,2.1,346.5,126.48
+RO240117,Fort Wayne,2026-10-01,Open,Warranty,Chevy 4500 Cutaway,PM service,M. Chen,8.6,1419.0,2365.27
+RO240118,Nashville,2026-09-05,Closed,Internal,Freightliner S2C School Bus,A/C not cooling,M. Chen,0.9,148.5,2428.97
+RO240119,Columbus,2026-08-28,Open,Warranty,Ford E-450 Shuttle Bus,Electrical short at rear heater,R. Davis,10.0,1650.0,1286.52
+RO240120,Indianapolis,2026-10-20,Waiting on Parts,Customer,Ram ProMaster,Electrical short at rear heater,,8.4,1386.0,975.31
+RO240031,Columbus,2026-10-20,In Progress,Warranty,Chevy 4500 Cutaway,A/C not cooling,J. Brooks,1.0,165.0,1584.19

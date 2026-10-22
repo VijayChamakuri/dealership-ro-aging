@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open RO Aging</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="appbar">
+    <div class="appbar-inner">
+      <div class="brand">
+        <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h12v9H3zM15 9h3.5L21 12v3h-6zM6.5 18.5a1.75 1.75 0 1 0 0-.01M17.5 18.5a1.75 1.75 0 1 0 0-.01" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        <span>Service Reporting</span>
+      </div>
+      <nav class="tabs" role="tablist" aria-label="Sections">
+        <button role="tab" id="tab-overview" aria-controls="view-overview" aria-selected="true">Overview</button>
+        <button role="tab" id="tab-orders" aria-controls="view-orders" aria-selected="false">Repair orders</button>
+        <button role="tab" id="tab-quality" aria-controls="view-quality" aria-selected="false">Data quality <span class="tab-count" id="quality-count"></span></button>
+      </nav>
+      <a class="appbar-link" href="/docs" id="docs-link">API reference</a>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="page-head">
+      <div>
+        <h1>Open repair order aging</h1>
+        <p class="page-sub" id="page-sub">Loading</p>
+      </div>
+      <div class="filters">
+        <label class="field">Branch
+          <select id="branch"><option value="">All branches</option></select>
+        </label>
+        <label class="field">As of
+          <input type="date" id="as-of">
+        </label>
+        <button type="button" class="btn" id="export">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v8m0 0 3-3m-3 3L5 7M3 12.5h10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Export CSV
+        </button>
+      </div>
+    </div>
+
+    <section class="panel auth hidden" id="auth" aria-labelledby="auth-title">
+      <h2 id="auth-title">Connect to the reporting API</h2>
+      <p class="muted">Enter the key configured in <code>RO_API_KEY</code>. It is kept for this browser session only.</p>
+      <form id="auth-form" class="auth-form">
+        <input type="password" id="api-key" autocomplete="off" aria-label="API key" placeholder="API key" required>
+        <button type="submit" class="btn btn-primary">Connect</button>
+      </form>
+      <p class="error hidden" id="auth-error" role="alert">That key was not accepted. Check the value of RO_API_KEY and try again.</p>
+    </section>
+
+    <!-- Overview -->
+    <div class="view" id="view-overview" role="tabpanel" aria-labelledby="tab-overview">
+      <section class="metrics" id="metrics" aria-label="Summary"></section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Aging by branch</h2>
+            <p class="muted">Select a segment to see the repair orders in it.</p>
+          </div>
+          <div class="panel-tools">
+            <div class="segmented" role="group" aria-label="Measure">
+              <button type="button" data-measure="count" aria-pressed="true">Orders</button>
+              <button type="button" data-measure="dollars" aria-pressed="false">Value</button>
+            </div>
+            <div class="segmented" role="group" aria-label="View">
+              <button type="button" data-view="chart" aria-pressed="true">Chart</button>
+              <button type="button" data-view="table" aria-pressed="false">Table</button>
+            </div>
+          </div>
+        </div>
+        <div class="legend" id="legend" aria-hidden="true"></div>
+        <div id="aging-chart" class="aging-chart"></div>
+        <div id="aging-table" class="table-wrap hidden"></div>
+      </section>
+
+      <div class="grid-3">
+        <section class="panel">
+          <h2>Where work is waiting</h2>
+          <p class="muted">Open orders by status</p>
+          <div class="barlist" id="by-status"></div>
+        </section>
+        <section class="panel">
+          <h2>Who pays</h2>
+          <p class="muted">Open orders by payer type</p>
+          <div class="barlist" id="by-payer"></div>
+        </section>
+        <section class="panel">
+          <h2>Technician workload</h2>
+          <p class="muted">Open orders assigned to each technician</p>
+          <div class="barlist" id="by-technician"></div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Repair orders -->
+    <div class="view hidden" id="view-orders" role="tabpanel" aria-labelledby="tab-orders">
+      <section class="panel">
+        <div class="table-toolbar">
+          <label class="field grow">Search
+            <input type="search" id="search" placeholder="RO number, unit, complaint or technician">
+          </label>
+          <label class="field">Days open
+            <select id="filter-bucket"><option value="">Any</option></select>
+          </label>
+          <label class="field">Status
+            <select id="filter-status"><option value="">Any</option></select>
+          </label>
+          <label class="field">Payer
+            <select id="filter-payer"><option value="">Any</option></select>
+          </label>
+          <button type="button" class="btn btn-quiet" id="reset-filters">Reset</button>
+        </div>
+        <div class="table-wrap">
+          <table class="data" id="orders-table"></table>
+        </div>
+        <div class="table-foot">
+          <span id="orders-count" class="muted"></span>
+          <div class="pager">
+            <button type="button" class="btn btn-quiet" id="prev-page">Previous</button>
+            <span id="page-label" class="muted"></span>
+            <button type="button" class="btn btn-quiet" id="next-page">Next</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Data quality -->
+    <div class="view hidden" id="view-quality" role="tabpanel" aria-labelledby="tab-quality">
+      <section class="panel">
+        <h2>Reconciliation with the legacy Excel report</h2>
+        <p class="muted">Totals from the legacy macro logic compared with this service, for all branches. Every difference must trace to a reviewed finding before cutover.</p>
+        <div class="recon" id="recon-totals"></div>
+        <div class="table-wrap"><table class="data" id="recon-findings"></table></div>
+        <p class="note" id="recon-status"></p>
+      </section>
+      <section class="panel">
+        <h2>Records to correct in the DMS</h2>
+        <p class="muted">These records cannot be reported correctly until they are fixed at the source.</p>
+        <div class="table-wrap"><table class="data" id="exceptions-table"></table></div>
+      </section>
+    </div>
+
+    <footer class="page-foot" id="page-foot">Read-only view of DMS repair order data, served through <code>/api/v1</code>.</footer>
+  </main>
+
+  <div class="tooltip hidden" id="tooltip" role="tooltip"></div>
+  <script id="snapshot" type="application/json"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>
