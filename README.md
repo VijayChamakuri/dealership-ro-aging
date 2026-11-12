@@ -18,11 +18,9 @@ On 21 October 2026 the service counts 70 open repair orders (ROs) and $207,447.9
 | This service | 70 | $207,447.95 |
 | Macro minus service | 5 | $13,685.97 |
 
-All branches, 21 October 2026. Dollars are labor plus parts, in cents.
-
 An open RO has a status that, after trimming spaces and ignoring case, is not closed, invoiced, or void, and it has an open date. The page rounds each dollar figure to the nearest dollar, so the same three amounts show up there as $207,448, $221,134, and $13,686.
 
-RO240004, RO240009, and RO240016 are closed once spacing and case are fixed, so the service drops them. RO240023 has no open date, so the service drops it. RO240031 is in the file twice, and the service keeps one copy. Branch, status, and technician splits are in [docs/RESULTS.md](docs/RESULTS.md).
+RO240004, RO240009, and RO240016 are closed once spacing and case are fixed, so the service drops them. RO240023 has no open date, so the service drops it. RO240031 is in the file twice, and the service keeps one copy.
 
 ## How it works
 
@@ -75,8 +73,7 @@ _BUCKET_CASE = """
 
 - [`tests/test_parity.py`](tests/test_parity.py) (3). With all three corrections on, every branch and bucket matches the port to the cent. With them off, the only RO numbers with a different count are the five named above. Each correction on its own has to come in below 75 and at or above 70.
 - [`tests/test_repository.py`](tests/test_repository.py) (6). Summary count and dollars match the detail rows. Closed statuses stay out. Each RO number appears once. Ages land in the right bucket. A blank open date is an exception and is not aged. A branch filter returns only that branch.
-- [`tests/test_api.py`](tests/test_api.py) (14). The seven `/api/v1` routes return 401 with no key and 401 with a wrong key.
-- [`tests/test_api.py`](tests/test_api.py) (9). Health is public. The other checks cover summary shape, oldest-first detail, an unknown branch (404), a bad bucket and a bad date (422), breakdown totals, the Nashville CSV, and finding dollars that sum to the $13,685.97 gap.
+- [`tests/test_api.py`](tests/test_api.py) (23). The seven `/api/v1` routes return 401 with no key and 401 with a wrong key. Health is public. The other checks cover summary shape, oldest-first detail, an unknown branch (404), a bad bucket and a bad date (422), breakdown totals, the Nashville CSV, and finding dollars that sum to the $13,685.97 gap.
 
 ## Limitations
 

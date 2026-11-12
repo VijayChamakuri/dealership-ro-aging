@@ -23,6 +23,8 @@ One correction at a time leaves 72 orders if only status is normalized, 74 if on
 
 ## Headline
 
+The README table is this same population: all branches on 21 October 2026, labor plus parts, in cents. Branch, status, and technician splits are the tables below.
+
 | Report | Open ROs | Labor and parts | On the page |
 | --- | ---: | ---: | ---: |
 | Excel macro | 75 | $221,133.92 | $221,134 |
